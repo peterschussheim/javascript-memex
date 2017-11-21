@@ -1,4 +1,8 @@
-const foldl = f => acc => xs => xs.reduce(uncurry(f), acc)
+// Aliases
 const isArray = Array.isArray
 
-export { isArray }
+// Functions
+const compose = (f, g) => (...args) => f(g(...args))
+const composeAll = (...fns) => fns.reduce(compose)
+
+export { isArray, compose, composeAll }
