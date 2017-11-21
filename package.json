@@ -1,0 +1,32 @@
+{
+  "name": "js-essence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "eslint-check":
+      "eslint --print-config .eslintrc.js | eslint-config-prettier-check"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "keywords": [],
+  "author":
+    "Peter Schussheim <peter@schussheim.com> (https://peterschussheim.com/)",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "@babel/core": "7.0.0-beta.32",
+    "babel-jest": "21.2.0",
+    "babel-preset-env": "1.6.1",
+    "eslint": "4.11.0",
+    "eslint-config-prettier": "2.8.0",
+    "eslint-plugin-prettier": "2.3.1",
+    "jest": "21.2.1",
+    "prettier": "1.8.2",
+    "regenerator-runtime": "0.11.0"
+  }
+}
