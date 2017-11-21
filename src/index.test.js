@@ -1,17 +1,18 @@
 import flatten from './arrays/flatten'
+import { getNumberParts } from './regexp/index'
 import { gen, sample, sampleOne } from 'testcheck'
-require('jasmine-check').install()
 
-console.log(sample(gen.asciiString))
+require('jasmine-check').install()
 
 describe('Test Suite', () => {
   describe('strings', () => {
     describe('iterating over strings', () => {
-      check.it('using for-of', gen.str, x => {
-        expect(x).toEqual(x)
+      check.xit('using for-of', () => {
+        expect().toEqual()
       })
     })
   })
+
   describe('arrays', () => {
     describe('flatten', () => {
       test('flatten subarrays one level deep into single array', () => {
@@ -29,6 +30,22 @@ describe('Test Suite', () => {
           8,
           9
         ])
+      })
+    })
+  })
+
+  describe('collections', () => {
+    describe('merge', () => {
+      check.xit('use spread operator to merge objects into new object', () => {
+        expect(merge({})).toEqual({})
+      })
+    })
+  })
+
+  describe('regular expressions', () => {
+    describe('getNumberParts', () => {
+      check.it('get parts of number before and after "."', () => {
+        expect(getNumberParts('1234.56')).toEqual(['1234', '56'])
       })
     })
   })
