@@ -1,6 +1,45 @@
 # javascript-memex
 
+Collection of examples to demonstrate real-world patterns, utilities, etc.
+
+---
+
+- [javascript-memex](#javascript-memex)
+  - [Why](#why)
+  - [Topics](#topics)
+  - [Inspiration](#inspiration)
+
 ## Why
+
+## Topics
+
+<details>
+<summary>
+Strings
+</summary>
+TODO
+</details>
+<details>
+<summary>
+Arrays
+</summary>
+</details>
+<details>
+<summary>
+Objects/Collections
+</summary>
+</details>
+<details>
+<summary>
+Async Programming
+</summary>
+</details>
+<details>
+<summary>
+Regular Expressions
+</summary>
+</details>
+
 
 ## Inspiration
 
