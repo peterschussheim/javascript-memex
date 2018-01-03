@@ -1,5 +1,7 @@
 # javascript-memex
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/peterschussheim/javascript-memex.svg)](https://greenkeeper.io/)
+
 Collection of examples to demonstrate real-world patterns, utilities, etc.
 
 ---
